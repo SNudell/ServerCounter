@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <title>Dumm</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <script src="js/lib/jquery-2.1.4.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/dumm.js"></script>
+</head>
+
+<body onload="init()">
+    <div class = "DisplayCounterContainer">
+        <h1> current number of visitors </h1>
+        <h2 id = "CounterDisplay" >0</h2>
+        <button id = "IncrementButton" type = "button" >+</button>
+        <button id = "DecrementButton"  type = "button">-</button>
+    </div>
+    
+    <div class = "DisplayCounterContainer">
+        <h1> interval </h1>
+        <h2 id = "IntervalDisplay" >1</h2>
+        <button id = "IncrementIntervalButton" type = "button" >+</button>
+        <button id = "DecrementIntervalButton"  type = "button">-</button>
+    </div>
+    <div id = "UpdateContainer">
+        <h1> updates</h1>
+        <p id = "UpdateDisplay">no update yet </p>
+    </div>
+</body>
+
+</html>
